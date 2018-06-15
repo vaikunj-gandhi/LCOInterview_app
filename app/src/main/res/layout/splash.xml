@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativemain"
+    android:background="@drawable/grad_bg">
+
+
+    <ImageView
+        android:id="@+id/logoimageview"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/lcogowhite"
+        android:layout_centerInParent="true"/>
+    <ProgressBar
+        android:id="@+id/pgressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoimageview"
+        android:layout_marginTop="@dimen/_10sdp"
+        style="@style/CustomProgressBar"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>
