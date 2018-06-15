@@ -16,11 +16,10 @@
         <size
             android:height="48dp"
             android:width="48dp" />
-
         <gradient
             android:centerColor="@color/white"
             android:centerY="0.5"
-            
+
             android:startColor="@color/white"
             android:type="sweep"
             android:useLevel="false" />
